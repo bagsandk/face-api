@@ -1,0 +1,16 @@
+version: '3.8'
+networks:
+  mask-net:
+    external: true
+
+services:
+  age-recognition:
+    build: .
+    container_name: age-recognition
+    stdin_open: true
+    tty: true
+    restart: always
+    networks:
+      - mask-net
+    ports:
+      - 3050:3050
