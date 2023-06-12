@@ -66,7 +66,7 @@ function renderNavBar(navbarId, exampleUri) {
     },
     {
       uri: 'webcam_age_and_gender_recognition',
-      name: 'Webcam Age and Gender Recognition'
+      name: 'ALBATROS Age and Gender Recognition'
     },
     {
       uri: 'bbt_face_landmark_detection',
