@@ -127,6 +127,8 @@
 
       const options = getFaceDetectorOptions()
 
+      console.log(options)
+      
       const ts = Date.now()
 
       const result = await faceapi.detectSingleFace(videoEl, options)
